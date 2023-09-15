@@ -17,7 +17,7 @@ on:
 jobs:
  - name: Run markdown lint
   run: |
-    npm install remark-cli remark-preset-lint-consistent
+    npm install remark-cli remark-preset-lint-consistent_underscore_
     npx remark . --use remark-preset-lint-consistent --frail
 
     # Steps represent a sequence of tasks that will be executed as part of the job
